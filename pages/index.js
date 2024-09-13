@@ -41,7 +41,6 @@ const Page = () => {
             align="left">
             <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/polaroidPic.png" alt="Profile Image"/>
           </Box>
-        </Box>
             
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
