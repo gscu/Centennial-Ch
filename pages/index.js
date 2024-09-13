@@ -35,18 +35,18 @@ const Page = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            ꐈ
+            Centennial-Chan Anime Club
           </Heading>
           <Paragraph>
-            A developer that has a soft spot for bears. And someone who on occasion likes to give it their all, from backend to front. 
-            Currently project working off and on {' '}
+            Centennial Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!  
+            And you can join it too! Keep up-to-date with our latest anime activities! {' '}
             <NextLink href="/works/dexoverse"><Link>Dexoverse</Link></NextLink>
             .
           </Paragraph>
           <Box aligh="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                Portfolio
+                Join Now!
               </Button>
             </NextLink>
           </Box>
@@ -57,22 +57,22 @@ const Page = () => {
             🜸
           </Heading>
           <Paragraph>
-           64 bits about me: From the outskirts, my little mind ignited the first time I booted up Windows XP. 
-            My eyes lit up in fascination of this new frontier, this Wild West of the Web, unscathed.
+           Ohio. I am Centennial-Chan. And I hope to make non-fictional friends! From my fictional mutuals!  
+            Please consider signing up with the anime club! We talk about, uh, things like anime! Or anime-ish things! 
           </Paragraph>
           <br/>
           <Paragraph>
-            Before I knew it, I became a wiz of this World Wide Web.
-            To this day, that old busted up computer remains a relic, which can boot up into the unforeseeable cyberspace.  
+            Oh! 
+            And I Centennial-Chan give you my Centennial blessing on your upcoming exams, you baka! Ganbatte! 
           </Paragraph>
         </Section>
         
         <Section delay ={0.3}>
           <Link href="https://github.com" target="_blank">
-            <Button variant="ghost" colorScheme="teal"><Icon as={FiGithub} /></Button>
+            <Button variant="ghost" colorScheme="green"><Icon as={FiGithub} /></Button>
           </Link>
           <Link href="https://twitter.com/1hq" target="_blank">
-            <Button variant="ghost" colorScheme="teal"><Icon as={FiTwitter} /></Button>
+            <Button variant="ghost" colorScheme="green"><Icon as={FiTwitter} /></Button>
           </Link>
         </Section>
       </Container>
