@@ -45,7 +45,7 @@ const Page = () => {
           </Paragraph>
           <Box aligh="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                 Join Now!
               </Button>
             </NextLink>
