@@ -13,17 +13,17 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello there, I&apos;m Centennial-Chan! The cutest otaku on campus. *wink
+          Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
 
-        <Box display={{md:'flex'}}>
+    /*    <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
             <Heading>
             <Logom/>
             </Heading>
             <p css="line-height:10px"><b></b></p>
             <p css="line-height:10px">Anime <b>&#124;</b> Manga <b>&#124;</b> Vtube</p>
-          </Box>
+            </Box> */
 
           <Box flexShrink={0}
             mt={{base: 4, md: 0}}
