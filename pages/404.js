@@ -6,6 +6,7 @@ return (
   <Container>
     <br/>
     <Heading as="h1">Not Found</Heading>
+  <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/404.png" alt="404"/>
     <br/>
     <Text css="line-height:10px;">The page you&apos;re looking for was not found.</Text>
     <Divider my={6} />
