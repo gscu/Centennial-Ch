@@ -15,11 +15,7 @@ const Page = () => {
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
-
-
-
-          
-
+    
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Centennial-Chan Anime Club
