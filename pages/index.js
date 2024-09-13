@@ -16,14 +16,7 @@ const Page = () => {
           Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
 
-    /*    <Box display={{md:'flex'}}>
-          <Box flexGrow={1}>
-            <Heading>
-            <Logom/>
-            </Heading>
-            <p css="line-height:10px"><b></b></p>
-            <p css="line-height:10px">Anime <b>&#124;</b> Manga <b>&#124;</b> Vtube</p>
-            </Box> */
+
 
           
 
