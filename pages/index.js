@@ -15,15 +15,6 @@ const Page = () => {
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
-    
-        <Box display={{md:'flex'}}>
-          <Box flexGrow={1}>
-            <Heading>
-            <Logom/>
-             </Heading>
-              <p css="line-height:10px"><b></b></p>
-              <p css="line-height:10px">Anime <b>&#124;</b> Otaku <b>&#124;</b> Crypto</p>
-        </Box>
   
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
