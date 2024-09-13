@@ -13,7 +13,7 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello there, I&apos;m a hobbyist developer! And night owl by nature.
+          Hello there, I&apos;m Centennial-Chan! The cutest otaku on campus. *wink
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -22,7 +22,7 @@ const Page = () => {
             <Logom/>
             </Heading>
             <p css="line-height:10px"><b></b></p>
-            <p css="line-height:10px">Dev <b>&#124;</b> Otaku <b>&#124;</b> Crypto</p>
+            <p css="line-height:10px">Anime <b>&#124;</b> Manga <b>&#124;</b> Vtube</p>
           </Box>
 
           <Box flexShrink={0}
