@@ -20,10 +20,11 @@ const Page = () => {
           <Box flexGrow={1}>
             <Heading>
             <Logom/>
-            </Heading>
-            <p css="line-height:10px"><b></b></p>
-            <p css="line-height:10px">Dev <b>&#124;</b> Otaku <b>&#124;</b> Crypto</p>
-          </Box>
+             </Heading>
+              <p css="line-height:10px"><b></b></p>
+              <p css="line-height:10px">Anime <b>&#124;</b> Otaku <b>&#124;</b> Crypto</p>
+        </Box>
+  
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Centennial-Chan Anime Club
