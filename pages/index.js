@@ -48,13 +48,13 @@ const Page = () => {
           </Heading>
           <Paragraph>
            Ohio. I am Centennial-Chan. And I hope to make non-fictional friends! From my fictional mutuals!  
-            Please consider signing up with the anime club! Totally not a cult.
+            Please consider signing up with the anime club!
               We talk about, uh, things like anime! Or anime-ish things! 
           </Paragraph>
           <br/>
           <Paragraph>
             Oh! 
-            And I, Centennial-Chan, will give you my Centennial blessing on your upcoming exams, you baka!
+            And I Centennial-Chan give you my Centennial blessing on your upcoming exams, you baka!
               Ganbatte! 
           </Paragraph>
         </Section>
