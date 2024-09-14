@@ -5,7 +5,13 @@ const NotFound = () => {
 return (
   <Container>
     <br/>
-    <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/404.png" alt="404"/>
+    <Box flexShrink={0}
+        mt={{base: 4, md: 0}}
+        ml={{md: 6}}
+        align="left">
+        <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/polaroidPic.png" alt="Profile Image"/>
+    </Box>
+              
     <Heading as="h1">Not Found</Heading>
   
     <br/>
