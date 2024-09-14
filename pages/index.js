@@ -47,8 +47,8 @@ const Page = () => {
             🜸
           </Heading>
           <Paragraph>
-           Ohio. I am Centennial-Chan. And I hope to make non-fictional friends! From my fictional mutuals!  
-            Please consider signing up with the anime club!
+           Ohio. I am Centennial-Chan. I hope to make non-fictional friends! From my fictional mutuals!  
+            Please consider signing up to the anime club!
               We talk about, uh, things like anime! Or anime-ish things! 
           </Paragraph>
           <br/>
