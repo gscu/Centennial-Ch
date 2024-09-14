@@ -22,8 +22,8 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Centennial Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!  
-            And you can join it too! Keep up-to-date with our latest anime activities! {' '}
-            <NextLink href="/works/dexoverse"><Link>Dexoverse</Link></NextLink>
+            And you can join it too! Keep up-to-date with our latest {' '}
+            <NextLink href="/works/dexoverse"><Link>anime activities</Link></NextLink>!
             .
           </Paragraph>
           <Box aligh="center" my={4}>
