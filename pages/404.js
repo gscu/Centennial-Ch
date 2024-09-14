@@ -3,6 +3,7 @@ import { Box, Heading, Text, Container, Divider, Button } from '@chakra-ui/react
 
 const NotFound = () => {
 return (
+  <Layout>
   <Container>
     <br/>
     <Box flexShrink={0}
@@ -24,6 +25,7 @@ return (
       </NextLink>
     </Box>
   </Container>
+  </Layout>
   )
 }
 
