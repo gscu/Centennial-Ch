@@ -15,16 +15,15 @@ const Page = () => {
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
-  
+
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Centennial-Chan Anime Club
           </Heading>
           <Paragraph>
-            Centennial Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!  
+            Centennial Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!
             And you can join it too! Keep up-to-date with our latest {' '}
             <NextLink href="/works/dexoverse"><Link>anime activities</Link></NextLink>!
-            .
           </Paragraph>
           <Box aligh="center" my={4}>
             <NextLink href="/works">
@@ -41,24 +40,24 @@ const Page = () => {
             align="left">
             <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/polaroidPic.png" alt="Profile Image"/>
           </Box>
-            
+
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             🜸
           </Heading>
           <Paragraph>
-           Ohio. I am Centennial-Chan. I hope to make non-fictional friends! From my fictional mutuals!  
+           Ohio. I am Centennial-Chan. I hope to make non-fictional friends! From my fictional mutuals!
             Please consider signing up to the anime club!
-              We talk about, uh, things like anime! Or anime-ish things! 
+              We talk about, uh, things like anime! Or anime-ish things!
           </Paragraph>
           <br/>
           <Paragraph>
-            Oh! 
+            Oh!
             And I Centennial-Chan will give you my Centennial blessing on your upcoming exams, you baka!
-              Ganbatte! 
+              Ganbatte!
           </Paragraph>
         </Section>
-        
+
         <Section delay ={0.3}>
           <Link href="https://github.com" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiGithub} /></Button>
