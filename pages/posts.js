@@ -3,8 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbFailed from '../public/images/failed.png'
-import thumbTerminal from '../public/images/failed.png'
+import thumbFailed from '../public/images/congrat.png'
+import thumbTerminal from '../public/images/congrat.png'
+
+
 
 const Posts = () => (
   <Layout title="Posts">
@@ -12,13 +14,16 @@ const Posts = () => (
       <Heading as="h4" fontSize={20} mb={4}>
         Posts
       </Heading>
+
       <Section delay={0.1}>
         <SimpleGrid columns={[1,2,2]} gap={6}>
+
           <GridItem
-            title="Terminal Overflow"
+            title="Offically a Club!"
             thumbnail={thumbTerminal}
             href="terminal"
           />
+
         </SimpleGrid>
       </Section>
     </Container>

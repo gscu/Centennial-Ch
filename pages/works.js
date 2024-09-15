@@ -3,8 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import thumbAnya from '../public/images/anya.jpg'
-import thumbWave from '../public/images/wave.jpg'
+import thumbAnya from '../public/images/congratz.png'
 
 const Works = () => {
   return (
@@ -14,18 +13,14 @@ const Works = () => {
           Works
         </Heading>
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}
+		>
           <Section>
             <WorkGridItem id="dexoverse" title="Dexoverse" thumbnail={thumbAnya}>
-              A crypto project in the making...
+              Art of Centennial-Chan!
             </WorkGridItem>
           </Section>
 
-          <Section>
-            <WorkGridItem id="c" title="Programs for display" thumbnail={thumbWave}>
-              Coming soon...
-            </WorkGridItem>
-          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
