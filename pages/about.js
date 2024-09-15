@@ -19,7 +19,6 @@ const About = () => {
         </Box>
 
         <Section delay={0.1}>
-
           <Heading as="h3" variant="section-title">
             Who We Are
           </Heading>
@@ -37,24 +36,25 @@ const About = () => {
               </Button>
             </NextLink>
           </Box>
-
         </Section>
-
-        <Box flexShrink={0}
-            mt={{base: 4, md: 0}}
-            ml={{md: 6}}
-            align="left">
-            <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/congratz.png" alt="Celebration Image"/>
-          </Box>
 
         <Section delay ={0.3}>
           <Link href="https://instagram.com/centennialchan" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiInstagram} /></Button>
           </Link>
+
           <Link href="https://twitter.com/centennial_chan" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiTwitter} /></Button>
           </Link>
         </Section>
+
+        <Box flexShrink={0}
+            mt={{base: 4, md: 0}}
+            ml={{md: 6}}
+            align="right">
+            <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/congratz.png" alt="Celebration Image"/>
+          </Box>
+
       </Container>
     </Layout>
   )
