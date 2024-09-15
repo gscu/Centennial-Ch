@@ -21,8 +21,8 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Social</Meta>
-            <Link href='https://www.discord.com/'>
-							https://www.discord.com/ <ExternalLinkIcon mx="2px" />
+            <Link href='https://discord.gg/Nzvx6uy8'>
+							https://discord.gg/Nzvx6uy8 <ExternalLinkIcon mx="2px" />
 						</Link>
           </ListItem>
           <ListItem>
