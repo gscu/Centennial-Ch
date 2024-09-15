@@ -8,8 +8,8 @@ import GridItem from '../components/grid-item'
 import Logom from '../components/logomotion'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { FiInstagram, FiTwitter } from 'react-icons/fi'
-import { RiDiscordLine } from 'react-icons/ri'
-import { PiRedditLogoBold } from 'react-icons/pi'
+//import { RiDiscordLine } from 'react-icons/ri'
+//import { PiRedditLogoBold } from 'react-icons/pi'
 
 const About = () => {
   return (
@@ -50,12 +50,12 @@ const About = () => {
           </Box>
 
         <Section delay ={0.3}>
-          <Link href="https://discord.com" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={RiDiscordLine} /></Button>
-          </Link>
-          <Link href="https://reddit.com/r/centennialchan" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={PiRedditLogoBold} /></Button>
-          </Link>
+  //        <Link href="https://discord.com" target="_blank">
+  //          <Button variant="ghost" colorScheme="green"><Icon as={RiDiscordLine} /></Button>
+  //        </Link>
+  //        <Link href="https://reddit.com/r/centennialchan" target="_blank">
+  //          <Button variant="ghost" colorScheme="green"><Icon as={PiRedditLogoBold} /></Button>
+  //        </Link>
           <Link href="https://instagram.com/centennialchan" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiInstagram} /></Button>
           </Link>
