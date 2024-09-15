@@ -43,8 +43,8 @@ const About = () => {
         <Box flexShrink={0}
             mt={{base: 4, md: 0}}
             ml={{md: 6}}
-            align="center">
-            <Image borderStyle="transparent" maxWidth="220px" display="inline-block" borderRadius="28px" src="/images/congratz.png" alt="Celebration Image"/>
+            align="left">
+            <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/congratz.png" alt="Celebration Image"/>
           </Box>
 
         <Section delay ={0.3}>
