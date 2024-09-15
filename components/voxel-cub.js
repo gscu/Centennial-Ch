@@ -52,7 +52,7 @@ const VoxelCub = () => {
       setRenderer(renderer)
 
       // 640 -> 240, 8 -> 6
-      const scale = scH * 0.005 + 6.9
+      const scale = scH * 0.005 + 4.2
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -82,7 +82,7 @@ const VoxelCub = () => {
       })
 
       let req = null
-      let frame = 0 
+      let frame = 0
       const animate = () => {
         req = requestAnimationFrame(animate)
 
@@ -91,7 +91,7 @@ const VoxelCub = () => {
         if(frame <= 100) {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
-          
+
           camera.position.y = 10
           camera.position.x = p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
           camera.position.z = p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
@@ -109,7 +109,7 @@ const VoxelCub = () => {
       }
     }
   }, [])
-  
+
   useEffect(() => {
     window.addEventListener('resize', handleWindowResize, false)
     return() => {
