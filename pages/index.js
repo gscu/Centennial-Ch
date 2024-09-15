@@ -7,13 +7,13 @@ import NextLink from 'next/link'
 import GridItem from '../components/grid-item'
 import Logom from '../components/logomotion'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { FiGithub, FiTwitter } from 'react-icons/fi'
+import { FiDiscord, FiReddit, FiInstagram, FiTwitter } from 'react-icons/fi'
 const Page = () => {
   return (
     <Layout>
       <Container>
         <Box borderRadius="lg" bg ={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello there, I&apos;m Centennial-Chan! The cutest otaku around campus.
+          Nyaa~ I&apos;m Centennial-Chan! The cutest otaku around campus.
         </Box>
 
         <Section delay={0.1}>
@@ -26,7 +26,7 @@ const Page = () => {
             <NextLink href="/works/dexoverse"><Link>anime activities</Link></NextLink>!
           </Paragraph>
           <Box aligh="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="https://discord.com" target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                 Join Now!
               </Button>
@@ -46,7 +46,7 @@ const Page = () => {
             🜸
           </Heading>
           <Paragraph>
-           Ohio. I am Centennial-Chan. I hope to make non-fictional friends! From my fictional mutuals!
+           Ohio! I am Centennial-Chan. I hope to make non-fictional friends! From my fictional mutuals!
             Please consider signing up to the anime club!
               We talk about, uh, things like anime! Or anime-ish things!
           </Paragraph>
@@ -59,10 +59,16 @@ const Page = () => {
         </Section>
 
         <Section delay ={0.3}>
-          <Link href="https://github.com" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={FiGithub} /></Button>
+          <Link href="https://discord.com" target="_blank">
+            <Button variant="ghost" colorScheme="green"><Icon as={FiDiscord} /></Button>
           </Link>
-          <Link href="https://twitter.com/1hq" target="_blank">
+          <Link href="https://reddit.com/r/centennialchan" target="_blank">
+            <Button variant="ghost" colorScheme="green"><Icon as={FiReddit} /></Button>
+          </Link>
+          <Link href="https://instagram.com/centennialchan" target="_blank">
+            <Button variant="ghost" colorScheme="green"><Icon as={FiReddit} /></Button>
+          </Link>
+          <Link href="https://twitter.com/centennial_chan" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiTwitter} /></Button>
           </Link>
         </Section>
