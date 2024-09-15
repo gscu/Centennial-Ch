@@ -7,7 +7,10 @@ import NextLink from 'next/link'
 import GridItem from '../components/grid-item'
 import Logom from '../components/logomotion'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { RiDiscordLine, PiRedditLogoBold, FiInstagram, FiTwitter } from 'react-icons/fi'
+import { FiInstagram, FiTwitter } from 'react-icons/fi'
+import { RiDiscordLine } from 'react-icons/ri'
+import { PiRedditLogoBold } from 'react-icons/pi'
+
 const Page = () => {
   return (
     <Layout>
