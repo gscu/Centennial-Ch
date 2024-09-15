@@ -52,7 +52,7 @@ const VoxelCub = () => {
       setRenderer(renderer)
 
       // 640 -> 240, 8 -> 6
-      const scale = scH * 0.005 + 4.2
+      const scale = scH * 0.005 + 1.9
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
