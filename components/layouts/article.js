@@ -18,7 +18,7 @@ const Layout = ({ children, title}) => (
     style={{position: 'relative'}}>
       <>
         {title && ( <Head>
-            <title>CentennialChan {title}</title>
+            <title>Centennial-Chan {title}</title>
           </Head>
         )}
         {children}

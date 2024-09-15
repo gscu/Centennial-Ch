@@ -15,11 +15,11 @@ const Main = ({ children, router}) => {
         <meta name="author" content="1hq" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>ꐈ</title>
+        <title>Centennial-Chan</title>
       </Head>
-      
+
       <Navbar path={router.asPath}/>
-      
+
       <Container maxW="container.md" pt={14}>
         <NoSsr>
           <VoxelCub />
