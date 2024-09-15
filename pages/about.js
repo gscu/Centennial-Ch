@@ -51,7 +51,7 @@ const About = () => {
         <Box flexShrink={0}
             mt={{base: 4, md: 0}}
             ml={{md: 6}}
-            align="right">
+            align="center">
             <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/congratz.png" alt="Celebration Image"/>
           </Box>
 
