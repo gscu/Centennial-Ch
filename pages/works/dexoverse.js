@@ -21,15 +21,17 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Socials</Meta>
-            <span>Discord</span>
+            <Link href='https://www.discord.com/'>
+							https://www.discord.com/ <ExternalLinkIcon mx="2px" />
+						</Link>
           </ListItem>
           <ListItem>
             <Meta>Style</Meta>
-            <span>5-minute Craft</span>
+            <span>Vibrant</span>
           </ListItem>
           <ListItem>
-            <Meta>Comments</Meta>
-            <span>they couldnt make me hate u cen chan</span>
+            <Meta>Comment</Meta>
+            <span>&#34they couldnt make me hate u cen chan&#34</span>
           </ListItem>
         </List>
 
