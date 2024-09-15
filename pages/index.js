@@ -54,7 +54,7 @@ const Page = () => {
           <br/>
           <Paragraph>
             Oh!
-            And I, cute Centennial-Chan, will give you my Centennial blessing on your upcoming exams, you baka!
+            And I, the wise Centennial-Chan, will give you my Centennial blessing on your upcoming exams, you baka!
               Ganbatte!
           </Paragraph>
         </Section>
