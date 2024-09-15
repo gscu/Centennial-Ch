@@ -31,7 +31,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Comment</Meta>
-            <span>&#34they couldnt make me hate u cen chan&#34</span>
+            <span>"&#34they couldnt make me hate u cen chan&#34"</span>
           </ListItem>
         </List>
 
