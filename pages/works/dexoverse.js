@@ -20,7 +20,7 @@ const Work = () => {
             <span> ♡ rize</span>
           </ListItem>
           <ListItem>
-            <Meta>Socials</Meta>
+            <Meta>Social</Meta>
             <Link href='https://www.discord.com/'>
 							https://www.discord.com/ <ExternalLinkIcon mx="2px" />
 						</Link>
