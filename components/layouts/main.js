@@ -10,7 +10,7 @@ const Main = ({ children, router}) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="1hq website" />
+        <meta name="description" content="Centennial-Chan's Anime Club at Centennial College! Join our club for anime and manga events!" />
         <meta name="author" content="1hq" />
         <meta name="author" content="1hq" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
