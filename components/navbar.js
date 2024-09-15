@@ -44,7 +44,7 @@ const Navbar = props => {
       css={{backdropFilter:'blur(10px)'}}
       zIndex={1}
       {...props}>
-      
+
       <Container
         display="flex"
         p={2}
@@ -52,7 +52,7 @@ const Navbar = props => {
         wrap="wrap"
         align="center"
         justify="space-between">
-        
+
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tight'}>
             <Logo />
@@ -67,10 +67,13 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}>
           <LinkItem href="/works" path={path}>
-            Works
+            Artworks
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            Community Feed
+          </LinkItem>
+          <LinkItem href="/about" path={path}>
+            About
           </LinkItem>
         </Stack>
 
@@ -83,16 +86,19 @@ const Navbar = props => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"/>
-            
+
               <MenuList>
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Artworks</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                  <MenuItem as={Link}>Community Feed</MenuItem>
+                </NextLink>
+                <NextLink href="/about" passHref>
+                  <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
