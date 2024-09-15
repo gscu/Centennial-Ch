@@ -20,8 +20,8 @@ return (
     <Box flexShrink={0}
       mt={{base: 4, md: 0}}
       ml={{md: 6}}
-      align="left">
-      <Image borderStyle="transparent" maxWidth="150px" display="inline-block" borderRadius="28px" src="/images/404.png" alt="404"/>
+      align="center">
+      <Image borderStyle="transparent" maxWidth="340px" display="inline-block" borderRadius="28px" src="/images/404.png" alt="404"/>
     </Box>
   </Container>
   )
