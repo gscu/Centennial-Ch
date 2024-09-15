@@ -22,7 +22,7 @@ const Page = () => {
             Centennial-Chan Anime Club
           </Heading>
           <Paragraph>
-            Centennial Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!
+            Centennial-Chan is the host of the anime club at Centennial College where she hopes to make lots of neet friends!
             And you can join it too! Keep up-to-date with our latest {' '}
             <NextLink href="/works/dexoverse"><Link>anime activities</Link></NextLink>!
           </Paragraph>

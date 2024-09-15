@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="Centennial-Chan #1">
       <Container>
         <Title>
-          Dexoverse <Badge>Sept 2024</Badge>
+          Centennial-Chan <Badge>Sept 2024</Badge>
         </Title>
         <P>
           Centennial-Chan
@@ -17,7 +17,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Author</Meta>
-            <span> ♡ rize</span>
+            <span>♡ rize</span>
           </ListItem>
           <ListItem>
             <Meta>Social</Meta>
@@ -31,7 +31,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Comment</Meta>
-            <span>"&#34they couldnt make me hate u cen chan&#34"</span>
+            <span>"they couldnt make me hate u cen chan"</span>
           </ListItem>
         </List>
 

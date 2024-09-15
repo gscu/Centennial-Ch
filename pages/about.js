@@ -25,7 +25,7 @@ const About = () => {
 
           <Paragraph>
             This the official Anime Club of Centennial College with the approval of the CCSAI Student Association.
-						Who we really are, will always be a group that loves discussing anime. Some of us being cultured connoisseurs.
+						Who we really are, will always be a group that loves discussing anime and manga. Some of us being cultured connoisseurs.
 						With Centennial-Chan as the spirit that will keep on animating for centennial years to come!
           </Paragraph>
 
