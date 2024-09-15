@@ -7,7 +7,7 @@ import NextLink from 'next/link'
 import GridItem from '../components/grid-item'
 import Logom from '../components/logomotion'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { FiDiscord, FiReddit, FiInstagram, FiTwitter } from 'react-icons/fi'
+import { RiDiscordLine, PiRedditLogoBold, FiInstagram, FiTwitter } from 'react-icons/fi'
 const Page = () => {
   return (
     <Layout>
@@ -60,13 +60,13 @@ const Page = () => {
 
         <Section delay ={0.3}>
           <Link href="https://discord.com" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={FiDiscord} /></Button>
+            <Button variant="ghost" colorScheme="green"><Icon as={RiDiscordLine} /></Button>
           </Link>
           <Link href="https://reddit.com/r/centennialchan" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={FiReddit} /></Button>
+            <Button variant="ghost" colorScheme="green"><Icon as={PiRedditLogoBold} /></Button>
           </Link>
           <Link href="https://instagram.com/centennialchan" target="_blank">
-            <Button variant="ghost" colorScheme="green"><Icon as={FiReddit} /></Button>
+            <Button variant="ghost" colorScheme="green"><Icon as={FiInstagram} /></Button>
           </Link>
           <Link href="https://twitter.com/centennial_chan" target="_blank">
             <Button variant="ghost" colorScheme="green"><Icon as={FiTwitter} /></Button>
