@@ -27,7 +27,7 @@ const Page = () => {
             <NextLink href="/works/dexoverse"><Link>anime activities</Link></NextLink>!
           </Paragraph>
           <Box aligh="center" my={4}>
-            <NextLink href="https://discord.gg/8EgUz4Ey" target="_blank">
+            <NextLink href="https://discord.com/invite/tcaD5HC3T4" target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                 Join Now!
               </Button>
