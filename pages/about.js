@@ -30,7 +30,7 @@ const About = () => {
           </Paragraph>
 
           <Box aligh="center" my={4}>
-            <NextLink href="https://discord.com/invite/tcaD5HC3T4" target="_blank">
+            <NextLink href="https://discord.gg/Bmpbw52zhr" target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                 Join Now!
               </Button>
